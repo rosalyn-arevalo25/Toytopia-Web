@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial scale=1.0">
+            <title>Toytopia</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <section class="header4">
+                <nav>
+                    <a href="index.html"><img src="images/toytopialogo.png" ></a>
+                    <div class="nav-links" id="navLinks">
+                       <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="about-us.html">About Us</li>
+                            <li><a href="product.html">Products</li>
+                            <li><a href="contacts.html">Contacts</li>
+                            <li><a href="login.html">Log In</a>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </section>
+            </nav>
+            <section class="text-box2">
+                <h1>Contact us</h1>
+                <h5>Connecting minds alike</h5>
+            </section>               
+            <!-- Map icon-->
+            <section class="contact-us">
+                <div class="contact-col">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                     <i class="fa fa-home" ></i>
+                         <span>
+                             <h5>Sitio Puting Bato</h5>
+                             <p>J6C5+Q88, Padilla, Antipolo, 1870 Rizal</p>
+                            </span>
+                        </div></div>
+                <!--Email Us icon-->
+                <div class="contact-col">
+                    <div><a href="https://mail.google.com/mail/u/0/?fs=1&to=info.toytopia@gmail.com&su=SUBJECT&tf=cm">
+                    <i class="fa fa-envelope" ></i></a>
+                    <span>
+                        <h5>Email us @</h5>
+                        <p>info.toytopia@gmail.com</p>
+                    </span>
+                </div> </div>
+                <!--Telephone icon-->
+                <div class="contact-col">
+                    <div><a title="Viber" href="viber://chat?number=%2B639617705792">
+                    <i class="fa fa-phone-square" ></i></a>
+                    <span>
+                        <h5>+63 9617705792</h5>
+                        <p>+63 Philippines</p>
+                    </span>
+                </div></div>
+            </div></div>        
+            </section>
+            <!--location map-->
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.287750940718!2d121.20670170409382!3d14.623241519452895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bff0d69e9e57%3A0x5eb74f03e765cc6b!2sSitio%20Puting%20Bato!5e0!3m2!1sen!2sph!4v1711294737971!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+    <section class="footer">
+        <h4>About us</h4>
+            <div class="icons">
+                <a href="about-us.html"><i class="fa fa-question-circle-o" aria-hidden="true"></i></a>
+                <a href="about-us.html"><i class="fa fa-facebook-square" alt="Facebook.com"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=info.toytopia@gmail.com&su=SUBJECT&tf=cm"><i class="fa fa-at" alt="toytopia@gmail.com"></i></a>
+                <a href="contacts.html"><i class="fa fa-phone-square" alt="Call us @Viber"></i></a>
+        </div>
+            <p class="footerp">A store made with the power of <a href="https://www.youtube.com/watch?v=yxCYZi9UlhM"><i class="fa fa-handshake-o"></i></a>
+            </p>
+    </section>
+    <div id="goBtn">
+        <a href="#" class="gotopbtn"><i class="fa fa-angle-double-up" onclick=""></i></a>
+    </div>
+     <!--- Script for Menu Mobile device--->
+     <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            
+            navLinks.style.right = "-200px";
+        }
+    </script>
+            </body>
+    </html>
